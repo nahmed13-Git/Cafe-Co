@@ -1,0 +1,186 @@
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Pacifico", cursive;
+  text-decoration: none;
+  list-style: none;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 35px 12%;
+  background: #533a2f;
+  backdrop-filter: blur(10px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 30px;
+  color: #ff8c42;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.logo:hover {
+  color: #ff8c42;
+  text-shadow: 0 0 25px #ff8c42, 0 0 50px #ff8c42;
+  transform: scale(1.1);
+}
+span {
+  color: #2e1f1a;
+}
+/* Navbar */
+.navbar a {
+  font-size: 18px;
+  color: #ffc0cb;
+  font-weight: 500;
+  margin: 0 20px;
+  border-bottom: 3px solid transparent;
+  transition: 0.3s ease;
+}
+.navbar a:hover,
+.navbar a.active {
+  color: #ff8c42;
+  border-bottom: 3px solid #ff8c42;
+}
+
+/* Home Page */
+.home {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #6f4e37;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+
+.home-content h1 {
+  color: #ff8c42;
+  font-size: 80px;
+  line-height: 1.2;
+}
+.home-content p {
+  color: #ff8c42;
+  font-size: 45px;
+  line-height: 1.2;
+}
+
+.about {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-color: #ff8c42;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+
+/* Menu Page */
+.Menu {
+  padding: 10px 28px;
+  background-color: #6f4e37;
+  color: #ff8c42;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.Menu {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+img {
+  border-radius: 0%;
+  width: 350px;
+  float: right;
+}
+/* Contact Page */
+.Contact {
+  padding: 10px 28px;
+  background-color: #6f4e37;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+.Contact-content {
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-color: #ff8c42;
+  display: flex;
+  align-items: center;
+  gap: 7em;
+  padding: 30px 12% 0;
+}
+.Contact-content {
+  max-width: 800px;
+}
+.Contact-content h1 {
+  color: #2e1f1a;
+  font-size: 62px;
+  line-height: 1.2;
+}
+.Contact-content p {
+  color: #2e1f1a;
+  font-size: 30px;
+  margin: 25px 0 30px;
+}
+.Contact-form h1 {
+  text-align: center;
+  margin-top: 3em;
+  margin-bottom: 1em;
+  font-size: 36px;
+}
+.Contact-form {
+  max-width: 50em;
+  margin: 1rem auto;
+  text-align: center;
+  margin-bottom: 3em;
+}
+.Contact-form .input-box {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.Contact-form .input-box input,
+.Contact-form form textarea {
+  width: 100%;
+  padding: 1.5em;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+  background: whitesmoke;
+  border-radius: 0.8rem;
+  margin: 1rem 0;
+  resize: none;
+}
+/* Footer */
+footer {
+  background-color: #2e1f1a;
+  padding: 10px;
+  text-align: center;
+  color: #ff8c42;
+}
