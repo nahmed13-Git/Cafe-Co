@@ -1,2 +1,1 @@
 Cafe-Co
-google-site-verification=lQL24mIk6yYGs8KPvIzoAhRjcJZVxG7Y1kx2PGZt_4Q
